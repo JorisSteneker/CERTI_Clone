@@ -1,4 +1,6 @@
-Mirror van de CERTI_Clone op https://github.com/JorisSteneker/CERTI_Clone. Deze versie heeft wel één extra commit waarin het compileren op Mac OS gerepareerd is op basis van de bugs gerapporteerd op de bugtracker van de officiële CERTI op https://savannah.nongnu.org/bugs/?group=certi.
+Mirror van de CERTI_Clone op https://github.com/JorisSteneker/CERTI_Clone. 
+Deze versie heeft wel één extra commit waarin het compileren op Mac OS gerepareerd is op basis 
+van de bugs gerapporteerd op de bugtracker van de officiële CERTI op https://savannah.nongnu.org/bugs/?group=certi.
 
 License
 -------
