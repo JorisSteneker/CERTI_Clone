@@ -145,7 +145,7 @@ RTIG::processJoinFederation(Socket *link, NM_Join_Federation_Execution *req)
 		throw RTIinternalError("Invalid Federation/Federate Name.");
 
 	std::cout << "\nFederate \"" << federate << "\" joins Federation \""
-			<< federation << "\"";
+			<< federation << "\"" << std::flush;
 
 	Handle num_federation = federations.getFederationHandle(federation);
 
@@ -191,7 +191,7 @@ RTIG::processJoinFederation(Socket *link, NM_Join_Federation_Execution *req)
 			peer);
 
     std::cout << "(" << num_federation << ") with handle " << num_federe
-			<< ". Socket " << int(link->returnSocket()) <<" and IP-address " << link->addr2string(address) << "\n";
+			<< ". Socket " << int(link->returnSocket()) <<" and IP-address " << link->addr2string(address) << "\n" << std::flush;
 
 	// Prepare answer about JoinFederationExecution
 	rep.setFederationName(federation);
